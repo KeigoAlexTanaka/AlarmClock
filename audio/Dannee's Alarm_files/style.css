@@ -1,0 +1,60 @@
+*{
+	padding: 0;
+	margin: 0;
+	box-sizing: border-box;
+}
+/*takes away the preset spacing that comes with browser*/
+/*box-sizing adds the padding/border to the width itself*/
+
+body{
+	background: url("../image/alarmbg.png")
+}
+
+.main{
+	background: #896da3;
+	width: 50%;
+	margin: 15% auto;
+	height: 35vh;
+	width: 100vh;
+	position: relative;
+	padding: 30px;
+	border-radius: 50%;
+	border: solid black 5px;
+}
+
+.title{
+	border-radius: 50%;
+	background: #51dcff;
+	color: white;
+	padding: 40px 38px;
+	font-family: Orbitron, sans-serif;
+	font-weight: bold;
+	width: 300px;
+	position: absolute;
+	top: -15%;
+	left: 27%;
+	border: 5px solid black;
+}
+
+.clock{
+	border: 5px solid black;
+	background-color: #d9dddd;
+	text-align: center;
+	font-size: 42pt;
+	height: 100%;
+	width: 100%;
+	padding: 9%;
+	font-family: Orbitron, sans-serif;
+	border-radius: 40%;
+}
+
+.alarmsetting{
+	border: solid black 5px;
+	display: flex;
+	justify-content: space-around;
+
+}
+
+input{
+	text-align: center;
+}

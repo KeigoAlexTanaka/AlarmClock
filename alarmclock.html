@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Dannee's Alarm</title>
+	<link rel="stylesheet" type="text/css" href="css/style.css">
+	<link href='https://fonts.googleapis.com/css?family=Orbitron' rel='stylesheet' type='text/css'>
+
+
+</head>
+<body>
+
+	
+	<div class="main">
+		<div class="title">
+
+			Dannee's clock
+		
+		</div>
+	
+		<form class="clock">
+			<span id="hrs"></span>
+			<span id="min"></span>
+			<span id="sec"></span>
+
+			<div class="alarmsetting">
+				<input id="input_hr" type="text" name="hrs" value="Hours">
+				<input id="input_mn" type="text" name="min" value="Minutes">
+				<input id="input_sc" type="text" name="sec" value="Seconds">
+				<input type="button" onclick="activateAlarm()" value="set">
+				<input type="reset" name="reset" value="clear">
+			</div>
+		</form>	
+	</div>
+
+
+<script src="js/external.js">
+	
+
+</script>
+
+</body>
+</html>
